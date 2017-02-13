@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4">
+      <div class="container text-center" style="width: 100%; border-left: 8px solid #eee; margin: 10px; padding: 10px;">
+        <h4><%= @your_message%></h4>
+        <h6>- You</h6>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4">
+      <div class="container text-center" style="width: 100%; border-left: 8px solid #eee; margin: 10px; padding: 10px;">
+        <h4><%= @coach_answer %></h4>
+        <h6>- Coach</h6>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4">
+      <div class="container text-center" style="width: 100%;">
+        <%= link_to "Ask a new question", ask_path %>
+      </div>
+    </div>
+  </div>
+</div>
+
